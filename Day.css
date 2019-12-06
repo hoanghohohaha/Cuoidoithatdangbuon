@@ -1,0 +1,115 @@
+#bar{
+    width: 100%;
+    background-color: gray;
+    height: 50px;
+}
+#maincontain{
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: max-content;
+    height: auto;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+#percent{
+    margin: 100px;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: inherit;
+}
+#clock{
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#timeleft{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#barcontain{
+    width: 70%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: black 3px;
+    border-style: solid;
+}
+body{
+    margin: 0px;
+    widows: inherit;
+    width: inherit;
+}
+#lifebtn{
+    color: white;
+    background: black;
+    font-family: 'Courier New', Courier, monospace;
+    width: max-content;
+    height: max-content;
+    padding: 10px 10px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+}
+#daybtn{
+    display:none;
+    color: white;
+    background: black;
+    font-family: 'Courier New', Courier, monospace;
+    width: max-content;
+    height: max-content;
+    padding: 10px 10px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+}
+#bar2{
+    width: 100%;
+    background-color: gray;
+    height: 50px;
+}
+#maincontain2{
+    display:none;
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: max-content;
+    height: auto;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+#percent2{
+    margin: 100px;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: inherit;
+}
+#clock2{
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#timeleft2{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#bar2contain{
+    display:none;
+    width: 70%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: black 3px;
+    border-style: solid;
+}
